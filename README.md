@@ -24,7 +24,7 @@ The algorithm ends when each cell is visited.
 
 Last step in this program is exploring the maze from the entry by following the lowest number of adjacents cells.
 
-#Test
+# Test
 Here is a test in the form of an animated gif:
 
 ![Test](https://user-images.githubusercontent.com/79026302/109402790-02be2c80-7959-11eb-8b1e-f96f5ffc0a7d.gif)
