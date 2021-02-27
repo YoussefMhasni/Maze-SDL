@@ -19,7 +19,9 @@ This algorithm is a randomized version of Kruskal's algorithm:
 There are several data structures that can be used to model the sets of cells, I choosed the disjoint-set data structure to perform each union and find operation on two sets in nearly constant amortized time, so the running time of this algorithm is essentially proportional to the number of walls available to the maze.
 
 For solving the Maze I choosed the Depth-first-search (DFS) method.
-The algorithm starts at the root node (The start is from the exit), give it number 1, explores as far as possible with numbers along each branch before backtracking.
+
+The algorithm starts at the root node (The exit), gives it number 1, and explores as far as possible keeping track of the lenght of each branch .
+
 The algorithm ends when each cell is visited.
 
 Last step in this program is exploring the maze from the entry by following the lowest number of adjacents cells.
